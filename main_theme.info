@@ -1,0 +1,45 @@
+name = Main theme
+description = Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[highlighted]    = 'Highlighted'
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[banner]         = 'banner'
+
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+regions[map]            = 'Map'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+
+regions[hidden]         = 'Hidden'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/slick.css
+stylesheets[all][] = css/slick-theme.css
+stylesheets[all][] = css/substyle.css
+
+scripts[] = js/mask.js
+scripts[] = js/ymaps.js
+scripts[] = js/lang-dependencies.js
+scripts[] = js/slick.min.js
+scripts[] = js/banner.js
+scripts[] = js/main.js
+scripts[] = js/extra.js
